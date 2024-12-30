@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background: rgb(63, 94, 251);
+    background: linear-gradient(135deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+}
+
+.main-container {
+    height: 300px;
+    width: 500px;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    box-shadow: 0 0 40px 0 black;
+    text-align: center;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+    color: white;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin: 10px;
+}
+
+.dob-input {
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.calculate-btn {
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(22, 21, 21);
+}
+
+.ageresult {
+    padding: 10px;
+}
+
+@media (max-width: 511px) {
+    .main-container {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 335px) {
+    .header {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 300px) {
+    .header {
+        font-size: 23px;
+    }
+
+    .input-text {
+        margin: -10px;
+
+    }
+
+    label {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 288px) {
+    .header {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .input-text {
+        margin: -20px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .calculate-btn {
+        margin-top: 18px;
+        width: 150px;
+    }
+
+    .dob-input {
+        width: 150px;
+    }
+}
+
+
+@media (max-width: 279px) {
+    .header {
+        font-size: 19px;
+        padding: 5px;
+    }
+
+    .input-text {
+        margin: -25px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .calculate-btn {
+        margin-top: 20px;
+        width: 150px;
+    }
+
+}
+
+
+@media (max-width: 272px) {
+    .header {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .input-text {
+        margin: -25px;
+    }
+
+
+}
+
+
+@media (max-width: 266px) {
+    .header {
+        font-size: 17px;
+        padding: 5px;
+    }
+
+
+}
+
+@media (max-width: 259px) {
+    .header {
+        font-size: 16px;
+
+    }
+
+
+}
+
+
+@media (max-width: 253px) {
+    .header {
+        font-size: 15px;
+
+    }
+
+    .dob-input {
+        width: 130px;
+    }
+
+    .calculate-btn {
+        margin-top: 20px;
+        width: 130px;
+    }
+
+}
+
+
+@media (max-width: 247px) {
+    .header {
+        font-size: 14px;
+
+    }
+
+
+}
+
+
+@media (max-width: 240px) {
+    .header {
+        font-size: 13px;
+
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    .dob-input {
+        width: 110px;
+        height: 27px;
+    }
+
+    .calculate-btn {
+        margin-top: 23px;
+        width: 110px;
+        height: 27px;
+    }
+
+
+}
+
+@media (max-width: 234px) {
+    .header {
+        font-size: 12px;
+
+    }
+
+    label {
+        font-size: 8px;
+    }
+
+    .dob-input {
+        width: 100px;
+        height: 27px;
+    }
+
+    .calculate-btn {
+        margin-top: 23px;
+        width: 100px;
+        height: 27px;
+    }
+
+
+}
+
+@media (max-width: 227px) {
+    .header {
+        font-size: 11px;
+
+    }
+
+
+
+}
+
+@media (max-width: 221px) {
+    .header {
+        font-size: 10px;
+
+    }
+}
+
+@media (max-width: 214px) {
+    .header {
+        font-size: 9px;
+
+    }
+}
+
+@media (max-width: 208px) {
+    .header {
+        font-size: 8px;
+
+    }
+}
